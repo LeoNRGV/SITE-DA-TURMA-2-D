@@ -25,10 +25,11 @@
     display: flex;
     justify-content: left;
     align-items: left;
+    
     }
     
     .colégio-título{
-    padding: 30px;
+    padding: 25px;
     font-size: 36px;
     color: rgb(190, 14, 14);
     }
@@ -136,10 +137,22 @@
     font-size: 24px;
     color: none;
     }
+
+
+    .cabecalho-lista-item1{
+        display: inline-block;
+        margin: 0 24px;
+        font-size: 30px;
+        color: none;
+    }
+
+
     .cabecalho-lista-item:hover{
         color: white;
         text-decoration: underline;
     }
+
+
     .colégio{
     
     background-image: linear-gradient(rgb(236, 229, 229),white);
@@ -182,24 +195,25 @@
     .escola-título{
         text-align: center;
         padding: 30px;
-        font-size: 36px;
+        font-size: 50px;
         color: rgb(190, 14, 14);
         margin-left: 10%;
       }
       
       .escola-div-conteudo{
       
-        font-size: 20px;
-        margin: 0 50px;
+        font-size: 28px;
+        margin: 0 130px;
         color:rgb(12, 11, 11);
         background-color: white;
-        padding-left: 200px;
-        padding-right:200px;
+        padding-left: 250px;
+        padding-right:250px;
         padding-bottom: 30px;
+        text-align:justify;
       }
       
       .escola-texto{
-       padding-bottom: 8px;
+       padding-bottom: 15px;
       }
       .plano-de-fundo{
         background-color: rgb(22, 35, 65);
@@ -214,12 +228,72 @@
      
       }
 #estudante{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 50.4px;
+    margin-right: 50.4px;
     background-color:#a8a6a6; 
 
 }
 
+  #historia{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    color: rgb(190, 14, 14);
+    padding-bottom: 3.5%;
+  
+}
 
-      
-      
+#funcionamento{
+  text-align: center;
+  padding: 30px;
+  font-size: 50px;
+  color: rgb(190, 14, 14);
+  padding-bottom: 3.5%;
+}
+    
+   
+#estrutura{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    color: rgb(190, 14, 14);
+    padding-bottom: 3.5%;
+}
+         
+#fotos{
+    background:rgb(41, 80, 73);
+    padding:24px 0;
+    justify-content:center;
+    align-items:center;
+    margin-right:130px;
+    margin-left:130px;
+    }
+    
+    .fotos-título{
+    font-size: 50px;
+    text-align:center;
+    padding: 10px 0;
+    color: rgb(255, 255, 255);
+    }
+    
+    .fotos-todos{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    margin-left: 10%;
+    align-items: center;
+    }
+    
+    .fotos-div{
+    text-align: center;
+    padding-top: 30px;
+    
+    }
+    
+    .fotos-imagem{
+    height: 250px;
+    
+    }
+    
+    .plano-de-fundo4{
+    background-color: rgb(22, 35, 65);
+    }
